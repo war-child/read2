@@ -7,22 +7,22 @@ const generateMarkdown = require("./generateMarkdown.js");
 const questions = [
   {
     type: "input",
-    message: "What is the title of your project?",
+    message: "Title of your project?",
     name: "title"
   },
   {
     type: "input",
-    message: "What is the description of your project?",
+    message: "Description of your project?",
     name: "description"
   },
   {
     type: "input",
-    message: "What are the steps required to install your project?",
+    message: "Steps required to install your project?",
     name: "installation"
   },
   {
     type: "input",
-    message: "What is the usage of your project?",
+    message: "Usage of your project?",
     name: "usage"
   },
   {
@@ -38,22 +38,22 @@ const questions = [
   },
   {
     type: "input",
-    message: "What are the contribution guidelines for your project?",
+    message: "Contribution guidelines for your project?",
     name: "contributing"
   },
   {
     type: "input",
-    message: "What are the tests for your project?",
+    message: "Tests for your project?",
     name: "tests"
   },
   {
     type: "input",
-    message: "What is your GitHub username?",
+    message: "GitHub username?",
     name: "GitHub"
   }, 
   {
     type: "input",
-    message: "What is your email address?",
+    message: "eMail address?",
     name: "email"
 
   }
